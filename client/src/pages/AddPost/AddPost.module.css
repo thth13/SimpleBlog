@@ -1,0 +1,77 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form h1 {
+  margin-bottom: 10px;
+}
+
+.form input {
+  width: 570px;
+  height: 40px;
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+
+.contentField {
+  width: 570px;
+  height: 200px;
+  padding: 15px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.form select {
+  width: 400px;
+  height: 40px;
+  background-color: white;
+  border: 0;
+}
+
+.actionButtons {
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+
+.category {
+  /* margin:0px 0; */
+}
+
+.actionButtons button {
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  /* margin-top: 10px; */
+  /* margin-bottom: 15px; */
+  display: block;
+  margin: 10px auto;
+  /* float: left; */
+}
+
+.addButton {
+  width: 150px;
+  height: 50px;
+  background-color: #ff616d;
+  font-size: 20px;
+}
+
+.cancelButton {
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  background-color: grey;
+}
+
+.errorLabel {
+  color: red;
+  margin-top: -20px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.errorInput {
+  border: 1px solid red;
+}

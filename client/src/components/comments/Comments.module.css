@@ -1,0 +1,96 @@
+.commentsList {
+	width: 893px;
+	margin: 0 auto;
+}
+
+.commentsCount {
+	color: #b4ad9e;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	/*margin-bottom: 43px;*/
+}
+
+.comment {
+ 	display: flex;
+ 	/*margin-top: 40px;*/
+ 	/*margin-bottom: 90px;*/
+ 	margin-top: 50px;
+}
+
+.comment img {
+	min-width: 69px;
+	height: 69px;
+	margin-right: 37px;
+	margin-top: 10px;
+}
+
+.commentContent h4 {
+	color: #626262;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.commentContent p {
+	color: #626262;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.commentContent span {
+	color: #b4ad9e;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.addCommentForm {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.addCommentForm input {
+	width: 713px;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid #c8c8c8;
+	margin-left: 30px;	
+	outline: none;
+	padding: 30px;
+	font-size: 14px;
+	font-weight: 300;
+	/* resize: none; */
+	
+}
+
+.addCommentForm input::placeholder {
+	color: #c8c8c8;
+	font-family: Ubuntu;
+	text-transform: uppercase;
+}
+
+.connectButtons {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 38px;
+	margin-bottom: 96px;
+}
+
+.connectButtons li {
+	margin-left: 16px;
+}
+
+.connectButtons span {
+	margin-right: 10px;
+	color: #b4ad9e;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}

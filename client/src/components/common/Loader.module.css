@@ -1,0 +1,35 @@
+.loader {
+  width: 41px;
+  height: 41px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.loaderElem {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.41);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+
+.loaderElem div {
+  position: absolute;
+  animation: loaderElem 1s linear infinite;
+  width: 78px;
+  height: 78px;
+  top: 11px;
+  left: 11px;
+  border-radius: 50%;
+  box-shadow: 0 6.4px 0 0 #b4ad9e;
+  transform-origin: 39px 42.2px;
+  box-sizing: content-box; 
+}
+
+@keyframes loaderElem {
+  0% { transform: rotate(0deg) }
+  50% { transform: rotate(180deg) }
+  100% { transform: rotate(360deg) }
+}

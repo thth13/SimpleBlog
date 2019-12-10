@@ -1,0 +1,14 @@
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const AUTH_MODAL = 'AUTH_MODAL';
+export const LOAD_POSTS = 'LOAD_POSTS';
+export const LOAD_POST = 'LOAD_POST';
+export const LOAD_MORE = 'LOAD_MORE';
+export const ADD_POST = 'ADD_POST';
+export const UPDATE_POST = 'UPDATE_POST';
+export const DELETE_POST = 'DELETE_POST';
+export const SET_ERRORS = 'SET_ERRORS';
+export const SET_LOADING = 'SET_LOADING';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const CLEAR_POST = 'CLEAR_POST';
+export const ADD_COMMENT = 'ADD_COMMENT';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
